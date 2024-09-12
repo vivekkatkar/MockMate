@@ -1,11 +1,9 @@
+import ChatBox from "./Components/Chatbox";
 
 function App() {
- 
-  return (
-    <>
-      <div> Hello World</div>
-    </>
-  )
+  return <div>
+    <ChatBox />
+  </div>
 }
 
-export default App
+export default App;
